@@ -11,6 +11,7 @@ def commit():
     local('git add -p && git commit')
 
 def push():
+    print 'Deploying.....'
     local('git push')
 
 def prepare_deploy():
