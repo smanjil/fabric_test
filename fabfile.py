@@ -13,7 +13,7 @@ def commit():
     local('git add -p && git commit')
 
 def push():
-    print 'Deploying the app.....'
+    print 'Deploying the app....'
     local('git push')
 
 def prepare_deploy():
